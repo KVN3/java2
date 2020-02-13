@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Java Advanced 2.4:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e340f3b-e583-4db0-92a3-70341a8576b4" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Java_Advanced_2_4$BoomshineApp.coverage" NAME="BoomshineApp Coverage Results" MODIFIED="1524764121516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Boomshine.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XTvA5FPKqYaOG5TRbJt0YKgPIe" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RunManager" selected="Application.ZuigerApplication">
+    <configuration name="BoomshineApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Boomshine.BoomshineApp" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Boomshine.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
+      <module name="Week 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="Week 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyClient" />
+      <module name="Week 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuigerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zuigers.ZuigerApplication" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zuigers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ZuigerApplication" />
+      <item itemvalue="Application.BoomshineApp" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.DailyClient" />
+      <item itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DailyClient" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.ZuigerApplication" />
+        <item itemvalue="Application.BoomshineApp" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e340f3b-e583-4db0-92a3-70341a8576b4" name="Default" comment="" />
+      <created>1524410329801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524410329801</updated>
+      <workItem from="1524410331241" duration="16729000" />
+      <workItem from="1524516746523" duration="5771000" />
+      <workItem from="1524762438237" duration="10122000" />
+      <workItem from="1524819163788" duration="8935000" />
+      <workItem from="1524910404397" duration="6097000" />
+      <workItem from="1526286338077" duration="9000" />
+      <workItem from="1528800532125" duration="7512000" />
+      <workItem from="1581082754278" duration="1862000" />
+      <workItem from="1581085650932" duration="624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1286" height="167" key="GridCell.Tab.0.bottom" timestamp="1581085619714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581085619714" />
+    <state width="1286" height="167" key="GridCell.Tab.0.center" timestamp="1581085619714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581085619714" />
+    <state width="1286" height="167" key="GridCell.Tab.0.left" timestamp="1581085619714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581085619714" />
+    <state width="1286" height="167" key="GridCell.Tab.0.right" timestamp="1581085619714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581085619714" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1581084815744">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581084815744" />
+    <state x="65" y="0" key="new project wizard" timestamp="1581085617457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581085617457" />
+  </component>
+</project>
