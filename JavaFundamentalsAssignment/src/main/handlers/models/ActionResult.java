@@ -1,6 +1,7 @@
-package com.company;
+package main.handlers.models;
 
 public enum ActionResult {
     EXIT,
-    CONTINUE
+    CONTINUE,
+    CONTINUE_REPORTS
 }

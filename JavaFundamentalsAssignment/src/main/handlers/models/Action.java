@@ -1,4 +1,4 @@
-package com.company;
+package main.handlers.models;
 
 import database.models.AccessLevel;
 
