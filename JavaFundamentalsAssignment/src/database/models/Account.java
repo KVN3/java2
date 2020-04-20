@@ -1,9 +1,21 @@
 package database.models;
 
 public class Account {
-    public String username;
-    public String password;
-    public AccessLevel accessLevel;
+    private String username;
+    private String password;
+    private AccessLevel accessLevel;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public AccessLevel getAccessLevel() {
+        return accessLevel;
+    }
 
     public Account(String username, String password) {
         this(username, password, AccessLevel.BASIC);

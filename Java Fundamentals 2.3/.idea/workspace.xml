@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab3273b9-ed8a-4ac2-94d9-d3f15bcc4d81" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFundamentalsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFundamentalsAssignment/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +215,10 @@
       <workItem from="1585243440463" duration="2124000" />
       <workItem from="1585255008833" duration="750000" />
       <workItem from="1585274834267" duration="78000" />
+      <workItem from="1585274944855" duration="124000" />
+      <workItem from="1585327914438" duration="1199000" />
+      <workItem from="1586144096572" duration="856000" />
+      <workItem from="1587221860989" duration="613000" />
     </task>
     <servers />
   </component>
@@ -225,14 +230,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585253361526" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585243637379">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585275046635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585243637379" />
-    <state x="656" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1585274834852">
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585275046635" />
+    <state x="656" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1587221862496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="382" key="com.intellij.ide.util.TipDialog/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585274834852" />
+    <state x="656" y="382" key="com.intellij.ide.util.TipDialog/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587221862496" />
     <state x="342" y="140" key="new project wizard" timestamp="1581621140748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

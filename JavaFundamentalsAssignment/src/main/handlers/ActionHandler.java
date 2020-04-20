@@ -3,6 +3,8 @@ package com.company;
 import database.Database;
 import database.models.AccessLevel;
 import database.models.Account;
+import database.models.Student;
+import database.models.Teacher;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -114,7 +116,15 @@ public class ActionHandler {
     }
 
     private ActionResult displayTeachers() {
-        System.out.print("LIST OF TEACHERS");
+        String formattingString = "%-6s%-13s%-12s%-13s%-7s%-11s";
+
+        System.out.println("LIST OF TEACHERS");
+        System.out.format(formattingString, "Id", "FirstName", "LastName", "BirthDate", "Age", "Salary");
+        System.out.println();
+        System.out.format(formattingString, "**", "*********", "********", "*********", "***", "******");
+        System.out.println();
+
+        for (Teacher teacher : database.getTeachers()) { teacher.printInfo(); }
 
         return ActionResult.CONTINUE;
     }
@@ -126,7 +136,15 @@ public class ActionHandler {
     }
 
     private ActionResult displayStudents() {
-        System.out.print("LIST OF STUDENTS");
+        String formattingString = "%-6s%-13s%-12s%-13s%-7s%-10s";
+
+        System.out.println("LIST OF STUDENTS");
+        System.out.format(formattingString, "Id", "FirstName", "LastName", "BirthDate", "Age", "Group");
+        System.out.println();
+        System.out.format(formattingString, "**", "*********", "********", "*********", "***", "*****");
+        System.out.println();
+
+        for (Student student : database.getStudents()) { student.printInfo(); }
 
         return ActionResult.CONTINUE;
     }
