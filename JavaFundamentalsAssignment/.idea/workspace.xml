@@ -43,7 +43,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="kevin-van-eijk-java-eindopdracht" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-advanced-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demos/guitarshop-api" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -104,7 +104,7 @@
       <workItem from="1587390837188" duration="663000" />
       <workItem from="1587391519010" duration="1396000" />
       <workItem from="1587396361683" duration="1599000" />
-      <workItem from="1587553250995" duration="365000" />
+      <workItem from="1587553250995" duration="658000" />
     </task>
     <servers />
   </component>
@@ -128,10 +128,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="448" height="466" key="DebuggerActiveHint/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587370756011" />
-    <state x="1043" y="264" key="FileChooserDialogImpl" timestamp="1587553288523">
+    <state x="1043" y="264" key="FileChooserDialogImpl" timestamp="1587554846493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1043" y="264" key="FileChooserDialogImpl/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587553288523" />
+    <state x="1043" y="264" key="FileChooserDialogImpl/1920.309.1360.728/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587554846493" />
     <state width="938" height="348" key="GridCell.Tab.0.bottom" timestamp="1587403773720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
