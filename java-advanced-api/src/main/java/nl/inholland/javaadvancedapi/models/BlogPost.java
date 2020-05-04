@@ -1,12 +1,34 @@
 package nl.inholland.javaadvancedapi.models;
 
+
+import org.springframework.data.annotation.Id;
+
+
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
 public class BlogPost {
-    private long id;
+    @javax.persistence.Id @GeneratedValue
+    private Long id;
+
+    @Column
     private Date postingDate;
+    @Column
     private String title;
+    @Column(columnDefinition="text")
     private String body;
+
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    private BlogPage page;
+//
+//    public BlogPage getPage() {
+//        return page;
+//    }
+//
+//    public void setPage(BlogPage page) {
+//        this.page = page;
+//    }
 
     public BlogPost() {
     }
@@ -56,4 +78,16 @@ public class BlogPost {
         sb.append('}');
         return sb.toString();
     }
+
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (!(o instanceof BlogPost )) return false;
+//        return id != null && id.equals(((BlogPost) o).getId());
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return 31;
+//    }
 }
