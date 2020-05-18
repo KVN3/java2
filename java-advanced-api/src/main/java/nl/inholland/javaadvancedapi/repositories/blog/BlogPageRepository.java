@@ -1,4 +1,4 @@
-package nl.inholland.javaadvancedapi.repositories;
+package nl.inholland.javaadvancedapi.repositories.blog;
 
 import nl.inholland.javaadvancedapi.models.BlogPage;
 import org.springframework.data.jpa.repository.Query;
@@ -18,11 +18,11 @@ public interface BlogPageRepository extends CrudRepository<BlogPage, Long> {
 //    @Query("SELECT koppel.blog_page_id FROM BlogPage blog_page, BlogPost blog_postkoppel, BlogPage.posts WHERE koppel.posts_id = blog_post.id and blog_post.id = ?1")
 //    public long getBlogPageIdByBlogPostId(long id);
 
-    @Query( value = "select * from BlogPage p " +
-            "join BlogPage_posts b " +
-            "   on p.id = b.BlogPage_id " +
-            "join BlogPost c " +
-            "   on c.id = b.posts_id " +
-            "where c.id = ?id", nativeQuery = true)
+    @Query( value = "select * from blog_page page " +
+            "join blog_page_posts page_posts " +
+            "   on page_posts.blog_page_id = page.id " +
+            "join blog_post post " +
+            "   on post.id = page_posts.posts_id " +
+            "where post.id = ?id", nativeQuery = true)
     Iterable<BlogPage> getPageByPostId(@Param("id") long id);
 }

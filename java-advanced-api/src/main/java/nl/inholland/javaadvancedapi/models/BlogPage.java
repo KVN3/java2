@@ -47,3 +47,7 @@ public class BlogPage {
         //post.setPage(null);
     }
 }
+
+// FetchType LAZY, niet alles ophalen. Standaard 'EAGER', alles ophalen.
+// cascade = CascadeType.ALL, fetch = FetchType.LAZY, optional = false
+// @Transactional bij ApplicationRunner

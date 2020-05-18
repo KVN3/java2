@@ -1,14 +1,16 @@
 package nl.inholland.javaadvancedapi.services;
 
+import lombok.extern.java.Log;
 import nl.inholland.javaadvancedapi.models.BlogPage;
 import nl.inholland.javaadvancedapi.models.BlogPost;
-import nl.inholland.javaadvancedapi.repositories.BlogPageRepository;
-import nl.inholland.javaadvancedapi.repositories.BlogPostRepository;
+import nl.inholland.javaadvancedapi.repositories.blog.BlogPageRepository;
+import nl.inholland.javaadvancedapi.repositories.blog.BlogPostRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 
 @Service
+@Log
 public class BlogService {
     private BlogPageRepository blogPageRepository;
     private BlogPostRepository blogPostRepository;
@@ -20,6 +22,8 @@ public class BlogService {
     }
 
     private void initDatabase() {
+        log.info("init db");
+
         // Posts
         BlogPost[] posts = new BlogPost[3];
         posts[0] = new BlogPost(1L, new Date(120, 2, 30, 18, 30), "Patch Notes e1.1.2 & Beta Hotfix", "AI is more likely to block when equipped with a shield. Common troops now generally have higher weapon skills.\n" +
@@ -28,7 +32,7 @@ public class BlogService {
                 "An AI bug that reduced performance is fixed.\n" +
                 "Agents no longer block ally attacks in the shield wall formation.\n" +
                 "Multiplayer client crash fixed.");
-        posts[1] = new BlogPost(2L, new Date(120, 4, 4, 18, 30), "Generic Title", "Generic post body");
+        posts[1] = new BlogPost(2L, new Date(120, 4, 4, 18, 30), "Generic Title2", "Generic post body");
         posts[2] = new BlogPost(3L, new Date(120, 2, 4, 18, 30), "Kaaping bij de Hoorn van Afrika", "2020");
 
         // Pages
@@ -47,15 +51,6 @@ public class BlogService {
 
         blogPageRepository.save(pages[0]);
         blogPageRepository.save(pages[1]);
-
-        // Vraag voor Wim, waarom mag de code hieronder niet, maar de versie hierboven wel? Ook al wordt de 'post2' als nog eerder aangemaakt dan de page1 die er afhankelijk van is?
-        // En waarom worden IDs gedeeld tussen de twee tabellen? Mis ik iets of is dat hoe de memory database werkt?
-        //        blogPostRepository.save(posts[0]);
-        //        blogPostRepository.save(posts[1]);
-        //        blogPageRepository.save(pages[0]);
-        //
-        //        blogPostRepository.save(posts[2]);
-        //        blogPageRepository.save(pages[1]);
 
         // Logging
         System.out.println(blogPageRepository.count() + " rows in table 'BlogPage'");

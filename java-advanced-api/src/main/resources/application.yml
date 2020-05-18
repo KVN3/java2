@@ -1,0 +1,37 @@
+#spring.h2.console.enabled=true
+#spring.jpa.show-sql=true
+#spring.h2.console.path=/h2-console
+#server.servlet.context-path=/api
+
+server:
+  servlet:
+    context-path: /api
+  port: 8443
+  ssl:
+    key-store: classpath:inholland.p12
+    key-store-type: PKCS12
+    key-alias: inholland
+    key-store-password: inholland
+
+http:
+  port: 8080
+
+spring:
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+
+api:
+  token:
+    header-name: X-AUTHTOKEN
+
+#
+#JavaAdvanced:
+#  default-quantity: 10
+# javap -c Customer.java
+# in target folder cmd line, zie de code onderwater die gegenereerd is
+# @Data = @Getter/Setter, @Nog 2 dingen ... @ToString, @AllArgs/NoArgsConstructor, @Log . Je kan alle generated overriden door zelf te implementeren

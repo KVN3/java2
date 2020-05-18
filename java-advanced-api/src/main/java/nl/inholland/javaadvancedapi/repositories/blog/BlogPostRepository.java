@@ -1,4 +1,4 @@
-package nl.inholland.javaadvancedapi.repositories;
+package nl.inholland.javaadvancedapi.repositories.blog;
 
 import nl.inholland.javaadvancedapi.models.BlogPost;
 import org.springframework.data.repository.CrudRepository;

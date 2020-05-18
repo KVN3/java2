@@ -3,7 +3,7 @@ package nl.inholland.javaadvancedapi.controllers;
 import nl.inholland.javaadvancedapi.models.BlogPage;
 import nl.inholland.javaadvancedapi.models.BlogPost;
 import nl.inholland.javaadvancedapi.models.ErrorMessage;
-import nl.inholland.javaadvancedapi.repositories.BlogPostRepository;
+import nl.inholland.javaadvancedapi.repositories.blog.BlogPostRepository;
 import nl.inholland.javaadvancedapi.services.BlogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 import java.util.function.BinaryOperator;
@@ -57,13 +56,14 @@ public class BlogController {
         if (page == null)
             return ResponseEntity
                     .status(404)
-                    .body(new ErrorMessage("No page found for given ID."));
+                    .body(new ErrorMessage("No page foundda for given ID."));
         else
             return ResponseEntity
                     .status(200)
                     .body(page);
     }
 
+    // /api/blogs/pages/4
     @RequestMapping(value = "/pages", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity getBlogPageByPostId(
             @RequestParam(value = "postId", required = false) long postId
@@ -78,7 +78,7 @@ public class BlogController {
         if (page == null)
             return ResponseEntity
                     .status(404)
-                    .body(new ErrorMessage("No page found for given ID."));
+                    .body(new ErrorMessage("No page foundd for given ID."));
         else
             return ResponseEntity
                     .status(200)
